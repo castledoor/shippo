@@ -3,12 +3,22 @@
 <head>
   <title>Shippo</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag "http://fonts.googleapis.com/css?family=Poiret+One|Advent+Pro|Roboto", :media => "all"  %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+
 </head>
+<header>
+	<div class="header_container">
+		<%= render 'layouts/header' %>
+	</div>
+</header>
 <body>
+	<div class="body_container">
+	</div>
 
 <%= yield %>
-
 </body>
+<footer>
+</footer>
 </html>

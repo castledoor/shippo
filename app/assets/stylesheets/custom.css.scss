@@ -1,0 +1,70 @@
+/*@import 'bootstrap';*/
+body {
+	margin: 0px;
+	background-image:url('cloth_alike.png');
+}
+
+header {
+	margin-top: 0px;
+}
+
+.field_with_errors {
+  @extend .has-error;
+}
+
+.logo-image {
+	position: absolute;
+	max-width: 25%;
+	max-height: 25%;
+	top: -70%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+
+
+.bars-right { 
+	background:#39251a;
+	height:0.3%;
+	width:30%;
+	top:110px;
+	left:70%;
+	position:absolute;
+	margin: auto;
+}
+
+.bars-right1 { 
+	background:#39251a;
+	height:0.3%;
+	width:30%;
+	top:120px;
+	left:70%;
+	position:absolute;
+	margin: auto;
+}
+
+.bars-left { 
+	background:#39251a;
+	height:0.3%;
+	width:30%;
+	top:110px;
+	right:70%;
+	position:absolute;
+	margin: auto;
+}
+
+.bars-left1 { 
+	background:#39251a;
+	height:0.3%;
+	width:30%;
+	top:120px;
+	right:70%;
+	position:absolute;
+	margin: auto;
+}
+p.nav {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 140%;
+}

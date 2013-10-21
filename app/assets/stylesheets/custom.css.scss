@@ -28,9 +28,9 @@ header {
 .bars-right { 
 	background:#39251a;
 	height:0.3%;
-	width:30%;
+	width:39%;
 	top:110px;
-	left:70%;
+	left:61%;
 	position:absolute;
 	margin: auto;
 }
@@ -38,9 +38,9 @@ header {
 .bars-right1 { 
 	background:#39251a;
 	height:0.3%;
-	width:30%;
+	width:39%;
 	top:120px;
-	left:70%;
+	left:61%;
 	position:absolute;
 	margin: auto;
 }
@@ -48,9 +48,9 @@ header {
 .bars-left { 
 	background:#39251a;
 	height:0.3%;
-	width:30%;
+	width:39%;
 	top:110px;
-	right:70%;
+	right:61%;
 	position:absolute;
 	margin: auto;
 }
@@ -58,13 +58,28 @@ header {
 .bars-left1 { 
 	background:#39251a;
 	height:0.3%;
-	width:30%;
+	width:39%;
 	top:120px;
-	right:70%;
+	right:61%;
 	position:absolute;
 	margin: auto;
 }
-p.nav {
+ul.nav-left li {
 	font-family: 'Poiret One', sans-serif;
 	font-size: 140%;
+	color: #39251a;
+	display: inline;
+	float: left;
+	padding-left: 5%;
+	margin-top: 4%;
+}
+
+ul.nav-right li {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 140%;
+	color: #39251a;
+	display: inline;
+	float: right;
+	padding-right: 5%;
+	margin-top: 4%;
 }
